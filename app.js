@@ -15,7 +15,7 @@ app.get('/servicios', (req,res)=>{
     res.render("servicios", {tituloServicios: "Mi subtitulo de servicios"})
 })
 
-app.get('', (req,res)=>{
+app.get('/', (req,res)=>{
     res.render("index", {titulo: "MI TITULO MEJOREADO A DINAMICO"})
 })
 
