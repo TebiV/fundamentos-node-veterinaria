@@ -20,8 +20,7 @@ app.use((req,res,next) => {
         texto404: "ESTA PAGINA NO EXISTE PROBA EN OTRA"
     })
 })
-
-app.listen(PORT, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log('escuchando solicitudes en el puerto ', PORT)
 })
 
